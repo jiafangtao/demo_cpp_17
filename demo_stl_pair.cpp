@@ -5,7 +5,11 @@ using namespace std;
 int main() {
     pair<int, int> pii(1, 2);
     pair<int, string> pis;
-    auto p = make_pair(100, "100");
+
+
+    //auto p = make_pair(100, "100");
+    make_pair(100, "100");
+
 }
 
 // Question: what if a normal class and a template has the same name?

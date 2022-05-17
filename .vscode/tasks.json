@@ -24,6 +24,30 @@
 				"isDefault": true
 			},
 			"detail": "compiler: /usr/bin/clang++"
+		},
+		{
+			"type": "cppbuild",
+			"label": "C/C++: clang build active file to bin",
+			"command": "/usr/bin/clang++",
+			"args": [
+				"-std=c++17",
+				"-stdlib=libc++",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}/bin/${fileBasenameNoExtension}"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			},
+			"detail": "compiler: /usr/bin/clang++"
 		}
 	]
 }

@@ -30,6 +30,7 @@
 *.exe
 *.out
 *.app
+bin/
 
 # Debug symbols on Mac
 *.dSYM/
